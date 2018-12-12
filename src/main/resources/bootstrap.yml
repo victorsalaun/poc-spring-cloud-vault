@@ -1,0 +1,7 @@
+spring.application.name: aws-vault
+spring.cloud.vault:
+  host: ${VAULT_URL}
+  port: ${VAULT_PORT}
+  scheme: ${VAULT_PROTOCOL}
+  authentication: TOKEN
+  token: ${VAULT_TOKEN}
